@@ -9,7 +9,7 @@
     $format = '(%1$2d = %1$04b) = (%2$2d = %2$04b)'
         . ' %3$s (%4$2d = %4$04b)' . "\n";
 
-    echo <<<EOH
+  /*  echo <<<EOH
      ---------     ---------  -- ---------
      result        value      op test
      ---------     ---------  -- ---------
@@ -37,4 +37,4 @@
         $result = $value ^ $test;
         printf($format, $result, $value, '^', $test);
         echo "<br>";
-    }
+    }*/

@@ -20,3 +20,8 @@
     }
 
     $bar = &test();    // Invalid. // Notice: Only variables should be assigned by reference in D:\xampp\htdocs\training\reference.php on line 19
+
+    $myName = 'Jyoti';
+    $$myName = 'Pawar';
+    echo "<br> Demonstraing variable variable<br>",$myName." ".$$myName;
+    echo "<br>", $myName." ".$Jyoti;

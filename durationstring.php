@@ -5,7 +5,7 @@ function getDurationString(int $mins, int $seconds){
 
         if($mins > 0  &&  ($seconds >= 0 && $seconds <=59 )){
 
-            if(mins!=0){
+            if($mins!=0){
                 $hours = (int)$mins/60;
                 $remainingMins = $mins % 60;
             }
