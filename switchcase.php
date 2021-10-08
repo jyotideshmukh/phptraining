@@ -1,4 +1,5 @@
 <?php
+require_once 'patterns.php';
     function testSwitchCase($testChar) {
 
         switch($testChar){
@@ -20,4 +21,6 @@
     echo "<br>", testSwitchCase('A');
     echo "<br>", testSwitchCase('B');
     echo "<br>", testSwitchCase('C');
-    echo "<br>", testSwitchCase('D');
+    echo "<br>", testSwitchCase('Q');
+require_once 'patterns.php';
+
