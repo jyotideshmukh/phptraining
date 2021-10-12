@@ -1,4 +1,6 @@
 <?php
+
+    define("NEW_LINE","<br>");
    /*$daysStr = 'Mon,Tue,Wed,Thu,Fri,Sat,Sun';
     $days = explode(",",$daysStr);
     echo "<pre>", print_r($days);
@@ -55,9 +57,9 @@ output as well";*/
     echo "<pre>", print_r($arr1);
 echo "<pre>", print_r($arr2);*/
 
-    echo "<br>","*********************strip_tags***********************","<br>";
+    //echo "<br>","*********************strip_tags***********************","<br>";
     //form example
-
+    //phpinfo();
   //echo "******************************** strstr****************************","<br>";
    //strstr — Find the first occurrence of a string
 
@@ -116,3 +118,12 @@ echo "<pre>", print_r($arr2);*/
     $bar = 'HELLO WORLD!';
     $bar = ucwords($bar);             // HELLO WORLD!
     $bar = ucwords(strtolower($bar)); // Hello World!*/
+
+    /*echo "********************addslashes — Quote string with slashes*****************".NEW_LINE;
+    //when you submit the form and adding in database that time you need to supress the quotes
+    //by adding slashes
+    //then while showing content back to user you need strip slashes
+
+    $str =" I don't like to study ".NEW_LINE;
+    echo addslashes($str);
+    echo stripslashes(addslashes($str));*/
