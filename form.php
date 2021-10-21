@@ -23,11 +23,13 @@ echo isset($_POST['comment']) ? strip_tags($_POST['comment'],'<a><p><div>'):'';
 <div class="container">
     <div class="row"><h3>Contact us</h3></div>
 
-    <form class="" method="post">
+    <form class="" method="post" action="submit.php">
         <label>FirstName:</label>
         <input name="firstname" type="text" class="form-control">
         <label>LastName:</label>
         <input name="lastname" type=text" class="form-control">
+        <label>Email:</label>
+        <input name="email" type=email" class="form-control">
         <label>Gender:</label>
         <input name="gender" type="radio" value="male" class="form-control form-radio-input">Male
         <input name="gender" type="radio" value="female" class="form-control form-radio-input">Female

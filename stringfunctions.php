@@ -96,8 +96,8 @@ echo "<pre>", print_r($arr2);*/
    /* echo "******************************** strtok — Tokenize string****************************","<br>";
 
     $string = "This is\tan example\nstring";
-    /* Use tab and newline as tokenizing characters as well
-    $tok = strtok($string, " \n\t");
+    // Use tab and newline as tokenizing characters as well
+    $tok = strtok($string, "\n\t");
     //echo "Token", $tok."<br>";
     while ($tok !== false) {
         echo "Word=$tok<br />";
@@ -105,25 +105,25 @@ echo "<pre>", print_r($arr2);*/
     }*/
 /*echo "******************************** ucfirst — Make a string's first character uppercase****************************","<br>";
     $foo = 'hello world!';
-    $foo = ucfirst($foo);             // Hello world!
+    echo $foo = ucfirst($foo), NEW_LINE;             // Hello world!
 
     $bar = 'HELLO WORLD!';
-    $bar = ucfirst($bar);             // HELLO WORLD!
-    $bar = ucfirst(strtolower($bar)); // Hello world!*/
+    echo $bar = ucfirst($bar), NEW_LINE;             // HELLO WORLD!
+    echo $bar = ucfirst(strtolower($bar)), NEW_LINE; // Hello world!
 
-   /* echo "*********ucwords — Uppercase the first character of each word in a string","<br>";
+    echo "*********ucwords — Uppercase the first character of each word in a string","<br>";
     $foo = 'hello world!';
-    $foo = ucwords($foo);             // Hello World!
+    echo $foo = ucwords($foo), NEW_LINE;             // Hello World!
 
     $bar = 'HELLO WORLD!';
-    $bar = ucwords($bar);             // HELLO WORLD!
-    $bar = ucwords(strtolower($bar)); // Hello World!*/
+    echo $bar = ucwords($bar), NEW_LINE;             // HELLO WORLD!
+    echo $bar = ucwords(strtolower($bar)), NEW_LINE; // Hello World!*/
 
-    /*echo "********************addslashes — Quote string with slashes*****************".NEW_LINE;
+    echo "********************addslashes — Quote string with slashes*****************".NEW_LINE;
     //when you submit the form and adding in database that time you need to supress the quotes
     //by adding slashes
     //then while showing content back to user you need strip slashes
 
     $str =" I don't like to study ".NEW_LINE;
-    echo addslashes($str);
-    echo stripslashes(addslashes($str));*/
+    echo addslashes($str), NEW_LINE;
+    echo stripslashes(addslashes($str));
